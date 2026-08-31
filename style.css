@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat';
+}
+
+body {
+    background-color: rgba(255, 255, 255, 1);
+}
+
+@media (max-width: 1318px) and (max-height: 611px) {
+    header {
+        margin: 22px 0 0 22px;
+        word-spacing: 18px;
+    }
+
+    a {
+        font-weight: 600;
+        font-size: 24px;
+        color: rgba(152, 157, 156, 1);
+        cursor: pointer;
+    }
+
+    .header-button-log-in {
+        width: 130px;
+        height: 41px;
+        border-radius: 20.5px;
+        border: none;
+        background-color: rgba(102, 90, 225, 1);
+        font-weight: 600;
+        font-size: 24px;
+        color: rgba(255, 255, 255, 1);
+        cursor: pointer;
+    }
+
+    section {
+        margin: 25px 30px 0 22px;
+        display: inline-block;
+    }
+
+    aside {
+        display: inline-block;
+        position: relative;
+        bottom: 20px;
+    }
+
+    h1 {
+        font-weight: 900;
+        font-size: 100px;
+        color: rgba(81, 81, 81, 1);
+    }
+
+    h2 {
+        font-weight: 500;
+        font-size: 58px;
+        color: rgba(81, 81, 81, 1);
+    }
+
+    p {
+        margin: 5px 0 12px 0;
+        width: 600px;
+        font-weight: 400;
+        font-size: 24px;
+        color: rgba(132, 132, 132, 1);
+    }
+
+    .main-aside-button {
+        width: 239px;
+        height: 64px;
+        border-radius: 20.5px;
+        border: none;
+        background-color: rgba(173, 255, 0, 1);
+        font-weight: 700;
+        font-size: 28px;
+        color: rgba(0, 0, 0, 1);
+        cursor: pointer;
+        box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    }
+}
+
+@media (max-width: 390px) and (max-height: 800px) {
+    a {
+        display: none;
+    }
+
+    .header-button-log-in {
+        width: 130px;
+        height: 41px;
+        position: fixed;
+        top: 20px;
+        right: 20px;
+        border-radius: 20.5px;
+        border: none;
+        background-color: rgba(102, 90, 225, 1);
+        font-weight: 600;
+        font-size: 24px;
+        color: rgba(255, 255, 255, 1);
+    }
+
+    section {
+        display: flex;
+        justify-content: center;
+    }
+
+    img {
+        margin-top: 125px;
+        width: 354px;
+        height: 317px;
+    }
+    
+    h1 {
+        margin: 24px 0 0 64px;
+        font-weight: 900;
+        font-size: 50px;
+        color: rgba(81, 81, 81, 1);
+    }
+
+    h2 {
+        margin: 0 0 17px 79px;
+        font-weight: 500;
+        font-size: 30px;
+        color: rgba(81, 81, 81, 1);
+    }
+
+    p {
+        display: none;
+    }
+
+    .main-aside-button {
+        margin-left: 76px;
+        width: 239px;
+        height: 64px;
+        border-radius: 50px;
+        border: none;
+        background-color: rgba(173, 255, 0, 1);
+        font-weight: 700;
+        font-size: 28px;
+        color: rgba(0, 0, 0, 1);
+        box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    }
+}
